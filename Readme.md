@@ -1,4 +1,4 @@
-#Gender and Ethnicity Predictor
+# Gender and Ethnicity Predictor
 
 Pretrained models on 60k synthesized names for gender/110k usernames for ethnicity to predict gender and ethnicity based of text username/name using LSTM inspired by AndrewNg DeepLearning.ai which works best for Indian names with > 88% accuracy.
 
