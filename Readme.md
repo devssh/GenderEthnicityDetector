@@ -11,7 +11,7 @@ Numpy
 Tensorflow 1.10
 ```
 
-Run
+View in [Browser](https://github.com/devssh/GenderEthnicityDetector/blob/master/PredictGenderAndEthnicity.ipynb) or Run
 ```
 python predict_gender_and_ethnicity.py
 ```
