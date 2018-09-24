@@ -3,7 +3,7 @@
 
 
 
-Pretrained models on 60k synthesized names for gender/110k usernames for ethnicity to predict gender and ethnicity based of text username/name using LSTM inspired by AndrewNg DeepLearning.ai which works best for Indian names with > 88% accuracy which can predict for huge datasets/scale using pandas.
+Pretrained models on 60k synthesized names for gender/110k usernames for ethnicity to predict gender and ethnicity based of text username/name using LSTM inspired by AndrewNg DeepLearning.ai which works best for Indian names with > 88% accuracy which can predict for huge datasets/scale using pandas + tensorflow(keras).
 
 Requirements
 
