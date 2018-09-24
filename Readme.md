@@ -1,6 +1,9 @@
 # Gender and Ethnicity Predictor
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Pretrained models on 60k synthesized names for gender/110k usernames for ethnicity to predict gender and ethnicity based of text username/name using LSTM inspired by AndrewNg DeepLearning.ai which works best for Indian names with > 88% accuracy.
+
+
+Pretrained models on 60k synthesized names for gender/110k usernames for ethnicity to predict gender and ethnicity based of text username/name using LSTM inspired by AndrewNg DeepLearning.ai which works best for Indian names with > 88% accuracy which can predict for huge datasets/scale using pandas.
 
 Requirements
 
