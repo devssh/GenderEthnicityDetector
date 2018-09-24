@@ -4,6 +4,7 @@
 
 
 Pretrained models on 60k synthesized usernames for gender using baby names/110k usernames for ethnicity using LSTM inspired by AndrewNg DeepLearning.ai which works best for Indian names with > 88% accuracy which can predict for huge datasets/scale using pandas + tensorflow(keras).
+
 Save time training it yourself by reusing this pre-trained model straight from github to do fuzzy detection on usernames. For improved performance hire a Data Scientist to improve the model. Pull requests are welcome!
 
 Requirements
