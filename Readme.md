@@ -26,5 +26,5 @@ Modify the sample names in the python script with your own text and try!
 You can retrain the model to work for gender and ethnicity of any country using the string_vectorizer. Need GPUs to train for worldwide.
 
 Star this repo to add to your favorite repos or fork the code!
-
+If you have better datasets that I can train on do share!
 
