@@ -21,6 +21,41 @@ View in [Browser](https://github.com/devssh/GenderEthnicityDetector/blob/master/
 python predict_gender_and_ethnicity.py
 ```
 
+Sample Output
+
+```
+0             RajSood25
+1           mukta57cute
+2    burnvipulkumarfire
+3      priyasubramanium
+array([[male, female]]) probability
+[[0.71 0.28]
+ [0.11 0.88]
+ [0.99 0.  ]
+ [0.   0.99]]
+```
+
+
+```
+0        RajkumarSood
+1             mukta57
+2           johnsmith
+3         KeanuReeves
+4               Elias
+5    priyasubramanium
+6           Devashish
+
+array([[other, indian ethnicity]]) probability
+[[0.09 0.9 ]
+ [0.33 0.66]
+ [0.81 0.18]
+ [0.88 0.11]
+ [0.96 0.03]
+ [0.05 0.94]
+ [0.07 0.92]]
+ ```
+ 
+
 Modify the sample names in the python script with your own text and try!
 
 You can retrain the model to work for gender and ethnicity of any country using the string_vectorizer. Need GPUs to train for worldwide.
