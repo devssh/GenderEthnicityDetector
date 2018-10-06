@@ -7,21 +7,7 @@ Pretrained models on 60k synthesized usernames for gender using baby names/110k 
 
 Save time training it yourself by reusing this pre-trained model straight from github to do fuzzy detection on usernames. For improved performance hire a Data Scientist to improve the model or use transfer learning to retrain it. Pull requests are welcome!
 
-Requirements
-
-```
-Python 3.6
-Pandas 
-Numpy
-Tensorflow 1.10
-```
-
-View in [Browser](https://github.com/devssh/GenderEthnicityDetector/blob/master/PredictGenderAndEthnicity.ipynb) or Run
-```
-python predict_gender_and_ethnicity.py
-```
-
-Sample Output
+# Sample Output
 
 ```
 0             RajSood25
@@ -54,9 +40,22 @@ array([[other, indian ethnicity]]) probability
  [0.05 0.94]
  [0.07 0.92]]
  ```
- 
 
 Modify the sample names in the python script with your own text and try!
+
+Requirements
+
+```
+Python 3.6
+Pandas 
+Numpy
+Tensorflow 1.10
+```
+
+View in [Browser](https://github.com/devssh/GenderEthnicityDetector/blob/master/PredictGenderAndEthnicity.ipynb) or Run
+```
+python predict_gender_and_ethnicity.py
+```
 
 You can retrain the model to work for gender and ethnicity of any country using the string_vectorizer. Need GPUs to train for worldwide.
 
